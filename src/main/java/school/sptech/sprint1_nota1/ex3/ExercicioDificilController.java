@@ -14,7 +14,7 @@ public class ExercicioDificilController {
         int n2 = 1;
         int soma = 1;
 
-        if (n < 0){
+        if (n <= 0){
             res = new ExercicioDificilResponse(0,0);
         } else if (n == 1) {
             res = new ExercicioDificilResponse(1,1);
